@@ -87,7 +87,12 @@ def random_entertainment_picker(list):
         else:
             print("Please answer with Yes or No.")
 random_entertainment = random_entertainment_picker(entertainment_options)
-    
+
+my_day_trip = {"destination": random_destination, 
+"restaurant":random_restaurant,
+"entertainment":random_entertainment, 
+"transportation":random_transportation}   
+print(my_day_trip)
 print('')
 print(f"For your day trip, you will be going to {random_destination} and eating at {random_restaurant}. You will also be going {random_entertainment} by way of {random_transportation}!")
 print("")
